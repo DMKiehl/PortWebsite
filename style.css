@@ -1,0 +1,186 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color:  rgb(150, 145, 145);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+
+    .content{
+        width: 100%;
+        position: relative;
+    }
+
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+
+}
+
+.content { 
+    color: black;
+    float: right;
+    width: 75%;
+    background: rgba(255,255,255,0.5);
+}
+
+.Title {
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+    background-color: d rgb(163, 160, 160);
+    background: .2;
+} 
+
+.position-title {
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.my-title {
+    font-size: 20px;
+}
+
+.Techlist {
+   display: table;
+   margin: 0 auto;
+   text-align: left;
+
+}
+
+.main-content {
+    word-wrap: break-word;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+body {
+    text-align: center;
+    background: rgba(255,255,255,0.5);
+}
+
+.body {
+    background-image: url(Images/coding3.jpg); 
+}
+
+.Robots {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.robos {
+    float: right;
+    width: 600px;
+    height: 322px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.lemon {
+    float: right;
+    width: 660px;
+    height: 255 px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+
+.Lemonade {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.Custom {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.clist {
+    float: right;
+    width: 700px;
+    height: 225px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.Sweep {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.Sweepstakes {
+    float: right;
+    width: 576px;
+    height: 256px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+
+}
+
+.Humane, .Website, .GroupCap, .IndividualCap {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.HumaneS {
+    float: right;
+    width: 560px;
+    height: 312px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
